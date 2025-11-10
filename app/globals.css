@@ -300,3 +300,107 @@ h1, h2 {
     opacity: 1;
   }
 }
+/* --- MENTIONS LEGALES --- */
+.mentions{
+  margin-left: 15px;
+}
+.LegalSection {
+  background-color: #f5f5f5;
+  padding: 80px 20px;
+  color: #222;
+  text-align: left;
+}
+
+.LegalContainer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.LegalSection h1 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.LegalSection h2 {
+  font-size: 1.5rem;
+  color: #004aad;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.LegalSection p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.LegalSection a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.LegalSection a:hover {
+  text-decoration: underline;
+}
+/* --- MODAL --- */
+.ModalOverlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.ModalContent {
+  background-color: white;
+  padding: 40px 30px;
+  max-width: 700px;
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.ModalContent h1 {
+  font-size: 2rem;
+  color: #004aad;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.ModalContent h2 {
+  font-size: 1.3rem;
+  color: #004aad;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.ModalContent p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.ModalContent a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ModalContent a:hover {
+  text-decoration: underline;
+}
+
+.CloseButton {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

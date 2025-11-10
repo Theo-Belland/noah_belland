@@ -4,6 +4,7 @@ import Loader from "../components/Loader";
 import Bio from "../components/Bio";
 import Sponsors from "../components/Sponsors";
 import Contact from "../components/Contact";
+import Legal from "../components/Legal";
 
 export default function Home() {
   const [showContent, setShowContent] = useState(false);
@@ -34,9 +35,10 @@ export default function Home() {
           <Sponsors />
           <Contact />
 
-          <footer className="Footer">
-            © {new Date().getFullYear()} Noah Belland – Tous droits réservés
-          </footer>
+        <footer className="Footer">
+          © {new Date().getFullYear()} Noah Belland – Tous droits réservés
+            <Legal />
+        </footer>
         </main>
       )}
     </>
